@@ -1,0 +1,302 @@
+.rm26{
+    background:#007CFF;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    padding: 5px 10px;
+    margin: 0 auto;
+    width: 100%;
+    transition: all 0.3s ease-in-out 0s;
+}
+
+.rm26:hover{
+    background: #777;
+}
+.aqua{
+    background: #007CFF;
+    padding:2px 12px 5px 12px;
+    color: white;
+    border-radius: 15px;
+    font-size: 19px;
+}
+#general .container{
+width:96%;
+}
+.leTop{
+    background: #000633;
+    padding:15px 0;
+}
+.leTop2{
+    background: #fff;
+    margin-bottom: 25px;
+    padding:10px;
+    border-radius: 5px;
+}
+.h1, .h2, .h3, h1, h2, h3 {
+    margin-bottom: 0px;
+}
+.leTop2 h3{
+    margin: auto 0;
+    text-align: left;
+    color: #000633;
+    transition: all 0.3s ease-in-out 0s;
+}
+#selectionner h3:hover,#selectionner .fas:hover{
+   color: goldenrod;
+}
+#selectionner2 h3:hover, #selectionner2 .fas:hover{
+   color: goldenrod;
+}
+
+.leTop2 .fas{
+    color: #232623;
+    transition: all 0.3s ease-in-out 0s;
+}
+
+
+#general .partieGauche{
+    border: 2px solid #007CFF;
+    margin-top:0px;
+    
+}.cat:hover{
+    color: goldenrod;
+}
+.cat{
+    border-top: 2px solid #007CFF ;
+    padding-left: 20px;
+    font-size: 15px;
+    font-weight: bold;
+    color: white;
+    margin-top: -2px;
+    padding-top: 18px;
+    padding-bottom:18px;
+    background:  #007CFF;
+    transition: all 0.3s ease-in-out 0s;
+}
+#MenuProduit{
+    background: white;
+}
+.premiereListe{
+    list-style: none;
+    padding-top:10px;;
+    
+}
+.partieGauche ul a{ 
+    text-decoration: none;
+    color: #000633;
+    transition: all 0.3s ease-in-out 0s;
+}
+.partieGauche ul li{ 
+    text-decoration: none;
+    margin-left: -20px;
+    padding:7px;
+    font-weight: bold;   
+}
+.partieGauche ul li a:hover{ 
+   color: #777;
+}
+.banner img{
+    padding-bottom: 20px;
+    max-width: 100%;
+   
+}
+.composant p{
+    color: #444;
+    padding: 20px;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.tab-pane img{
+   max-width: 100%;
+}
+.tab-pane .row img{
+   max-width: 100%;
+   height:280px;
+}
+
+.tab-content .tab-pane .thumbnail{
+ background:white;
+ border-color: #d8d1d1;
+ box-shadow: 2px 2px 2px 2px #d8d1d1;
+}
+@media (min-width:501px) and (max-width:768px){
+  .tab-content .tab-pane .thumbnail{
+    width:75%;
+    margin-left:13%;
+  }   
+}
+@media (max-width:500px){
+  .tab-content .tab-pane .thumbnail{
+    width:80%;
+    margin-left:10%;
+  }   
+}
+.partieGauche2 .publicité img{
+     max-width: 100%;
+     height: auto;
+     padding-top: 20px;
+     padding-bottom:20px;
+     cursor: pointer;
+}
+.partieGauche2 h4{
+     font-weight: bold;
+     padding:10px;
+     text-decoration: underline;
+}
+
+
+@media screen and (min-width:769px) and (max-width:1368px){
+    .fa-angle-down{
+        opacity:0;
+    }
+}
+
+@media screen and (min-width:100px) and (max-width:768px){
+    .fa-angle-down{
+        opacity: 1;
+        
+    }
+}
+
+.separ{
+    border-top:1px solid #777;
+}
+
+
+.console{
+    font-size: 20px;
+    text-align: center; 
+    font-weight: bold;
+    background: #727070;
+    padding: 10px 10px;
+    border-radius: 5px;
+    transition: all 0.3s ease-in-out 0s;
+}
+.console a{
+       color: white;
+       text-decoration: none;
+       transition: all 0.3s ease-in-out 0s;
+}
+.console a:hover{
+    color: #88f372;
+}
+
+.PS4{
+    background: #131338;
+    text-align: center;
+    width:20%;
+    color: white;
+    font-size: 12px;
+    padding: 3px;
+    border-radius: 2px;
+    position: absolute;
+    font-weight: bold;
+    top: 1%;
+    right:8%;
+    transition: all 0.3s ease-in-out 0s;
+}
+.PS4:hover{
+    color: #000633;
+    background: white;
+}
+.PC{
+    background: orangered;
+    text-align: center;
+    width:20%;
+    font-size: 12px;
+    color: white;
+    padding: 3px;
+    border-radius: 2px;
+    position: absolute;
+    font-weight: bold;
+    top: 1%;
+    right: 8%;
+    transition: all 0.3s ease-in-out 0s;
+}
+.PC:hover{
+    color: orangered;
+    background: white;
+}
+.XBOX{
+    background: white;
+    text-align: center;
+    width:20%;
+    font-size: 10px;
+    font-weight: bold;
+    color: green;
+    padding: 3px;
+    border-radius: 2px;
+    position: absolute;
+    top: 1%;
+    right: 8%;
+    transition: all 0.3s ease-in-out 0s;
+}
+.XBOX:hover{
+    color: white;
+    background: green;
+}
+.boite-promo{
+    border: 2px solid orangered;
+    padding: 2px;
+    color: orangered;
+    text-align: center;
+    font-weight: bold;
+}
+
+ .rating a:hover,
+ .rating a:focus {
+    color: orange;
+    cursor: pointer;
+ }
+
+ .rating a:hover ~ a,
+.rating a:focus ~ a {
+   color: orange;
+}
+
+.rating a {
+    float: right;
+ }
+ .rating a {
+    float: right;
+    color: #aaa;
+    text-decoration: none;
+    font-size: 2em;
+    transition: color .4s;
+ }
+ .rating a:hover,
+ .rating a:focus,
+ .rating a:hover ~ a,
+ .rating a:focus ~ a {
+    color: orange;
+    cursor: pointer;
+ }
+
+ .rating {
+    direction: rtl;
+ }
+ .rating a {
+    color: #aaa;
+    text-decoration: none;
+    font-size:25px;
+    transition: color .4s;
+ }
+ .rating a:hover,
+ .rating a:focus,
+ .rating a:hover ~ a,
+ .rating a:focus ~ a {
+    color: orange;
+    cursor: pointer;
+ }
+ .btn-see{
+     width:75px;
+     text-align: center;
+     color: white;
+     background: #727070;
+     transition:  all 0.3s ease-in-out 0s;
+ }
+ .btn-see:hover{
+     background: #000633;
+     color: white;
+ }

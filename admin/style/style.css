@@ -1,0 +1,105 @@
+body{
+    background:#e8e4e4;
+}
+.help-inline{
+    color: red;
+}
+.btn{
+    transition:all 0.3s ease-in-out 0s;
+}
+#view .container{
+  width: 80%;
+}
+#view .container .row{
+   background: white;
+   border-radius: 10px;
+   padding: 40px 50px;;
+}
+.admin{
+    background: #fff;
+    padding:20px 40px;
+    margin-top:80px;
+     border-radius: 10px;
+}
+.admin3{
+    background: #fff;
+    padding:20px 40px;
+    margin-top:80px;
+    border-radius: 10px;
+}
+.admin3 .latest .thumbnail{
+   width:90%;
+   float: right;
+}
+.admin input[type=text] , .admin input[type=number] , option{
+    font-size: 15px;
+} 
+.admin2{
+    background: #fff;
+    padding:20px 80px;
+    margin-top:80px;
+     border-radius: 10px;
+}
+.tab-content .container{
+   width: 100%;
+}
+.admin h1{
+    color: #333;
+    font-family: 'Fjalla One', sans-serif;
+}
+.btn-add{
+    transition:all 0.4s ease-in-out 0s;
+    border: none;
+    border-radius:5px;
+}
+.btn-add:hover{
+    background:green;
+}
+.btn .btn-xs{
+    width: 33%;
+}
+.b , .j{
+    transition:all 0.3s ease-in-out 0s;
+}
+
+
+
+@media (min-width:730px) and (max-width:800px){
+    .btn-default , .btn-success , .btn-danger{
+       width:85px;
+    }
+    .table{
+        font-size: 12px;
+    }
+    .tira , .fa-eye , .fa-pen , .fa-trash{
+        
+        font-size: 10px;
+    }
+}
+@media (min-width:630px) and (max-width:729px){
+    .btn-default , .btn-success , .btn-danger{
+       width:70px;
+    }
+    .table{
+        font-size: 10px;
+    }
+    .tira , .fa-eye , .fa-pen , .fa-trash{
+        
+        font-size:9px;
+    }
+}
+@media (max-width:629px){
+    .btn-default , .btn-success , .btn-danger{
+       width:30px;
+    }
+    .table{
+        font-size: 10px;
+    }
+    .tira{
+      display: none;
+    }
+    .fa-eye , .fa-pen , .fa-trash{
+        font-size:10px;
+        margin-left: -3px;
+    }
+}

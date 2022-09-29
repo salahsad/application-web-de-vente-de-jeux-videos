@@ -1,0 +1,267 @@
+@import url('https://fonts.googleapis.com/icon?family=Material+Icons');
+
+#first-21 .container-fluid{
+    margin-left: 0;
+    margin-right: 0;
+    padding-left: 0;
+    padding-right: 0;
+}
+#first-21 .img-princ img{
+    width: 100%;
+}
+#first-21{
+    background: url('../image/fifa21/sect.jpg');
+    margin-top: -20px;
+}
+#first-21 .sectionn
+{
+    padding: 40px 20px;
+    background:black;
+    width:100%; 
+}
+.team-ses h2{
+    font-weight: bold;
+    color: white;
+    padding: 10px 0;
+}
+.team-ses p{
+    color: white;
+    font-size: 16px;
+    text-align: center;
+}
+.first-elements .players img{
+    width:98%;
+}
+.btn-fifa{
+    color: #333;
+    background: yellow;
+    margin-top: 30px;
+    padding: 15px 20px;
+    text-align: center;
+    margin: 20px 35%;
+    transition:  all 0.3s ease-in-out 0s;
+}
+.btn-fifa:hover{
+    color: white;
+    background: #007CFF; 
+}
+
+.ligne{
+    padding: 40px 0 10px 0;
+}
+
+
+#copa{
+    background:#010112;
+}
+
+#copa h2{
+    text-align:center;
+    color: white;
+    padding: 10px 0;
+}
+#copa p{
+    color: white;
+    text-align: center;
+    font-size: 16px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+/*******  partie 3  ******/
+
+#access{
+    background:#0b0909;
+}
+#access .container{
+    background: url('../image/fifa21/img.png');
+    width: 100%;
+}
+#access .container{
+   padding: 20px 30px;;
+}
+#access h2{
+    font-size:40px;
+    color: white;
+    padding-top:40px;
+    text-align: center;
+    padding-bottom: 40px;
+}
+#access p{
+    font-size:20px;
+    color: white;
+    padding: 5px 60px 5px 0;
+}
+.etoile{
+    color: yellow;
+}
+.btn-kyliant{
+    color: #333;
+    background: yellow;
+    border-radius: 2px;
+    margin-top: 20px;
+    padding: 15px 30px;
+    font-size: 16px;
+    text-align: center;
+    margin-bottom: 40px;
+    transition: all 0.3s ease-in-out 0s;
+}
+.btn-kyliant:hover{
+    color: white;
+    background: #007CFF;
+}
+
+
+/********* buy ********/
+
+
+/***********  partie 1 buy  *********/
+
+
+#buy h1{
+    font-family: 'Fjalla One', sans-serif;
+    text-align: center;
+    padding: 20px 0;
+    color: #000633;
+    font-size: 40px;
+}
+#buy{
+    background: #e5e6ea;
+    padding:40px 0;
+}
+#buy p{
+    font-family: 'Fjalla One', sans-serif;
+    text-align: center;
+    padding: 20px 0;
+    color: #000633;
+    font-size: 20px;
+}
+
+#buy .container{
+    padding:30px 20px 40px 20px;
+    border: 1px solid white;
+    background: white;
+    width: 90%;
+    box-shadow: 1px 1px 1px #777;
+}
+#buy .ribbon-10 img{
+    position: absolute;
+    left:6%;
+}
+@media (max-width:500px){
+   #buy .ribbon-10 img{
+    width:50%;
+    margin-top: 5px;
+   }
+}
+   
+ 
+#buy .block1{
+   margin-left: 40px;
+}
+#buy .block1 .list{
+   margin-top:15%;
+}
+#buy .block1 h3{
+    font-weight: bold;
+    color: #444;
+    font-family: 'Fjalla One', sans-serif;
+}
+#buy .block1 h5{
+    font-family: 'Fjalla One', sans-serif;
+    color: #2c3769;
+    padding: 15px 0;
+    font-size: 14px;
+}
+
+.select-container{
+    padding: 10px;
+    border: 2px solid #b2b3b7;
+    width: 80%;
+    position: relative;
+}
+
+.select-container select{
+    width: 100%;
+    border: 0;
+    background: transparent;
+    font-size: 16px;
+    outline: none;
+    appearance: none;
+    -webkit-appearance: none;
+   -moz-appearance: none;    
+}
+.select-container:after{
+    content: 'keyboard_arrow_down';
+    position: absolute;
+    font-family: 'material icons';
+    font-size: 24px;
+    color: #666;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    pointer-events: none;
+}
+.ellie img{
+    width: 65%;
+}
+
+
+
+
+/***********  partie 2 buy  *********/
+
+#buy .btn-bay{
+    padding: 15px 20px;
+    font-size: 14px;
+    color: white;
+    background: #164094;
+    width:95%;
+    border: none;
+    border-radius: 2px;
+    margin:5px 0;
+    transition: all 0.3s ease-in-out 0s;
+}
+#buy .btn-bay:hover{
+    font-size: 15px;
+    color: white;
+    background:#777;
+}
+
+.black{
+    color: black;
+    font-weight: bold;
+}
+.block2 h3{
+    color: #164094;
+    float: right;
+}
+.violette{
+    color: #48186c;
+    font-weight: bold;
+}
+.block2 h5{
+    font-size: 13px;
+    font-weight: bold;
+    font-style: italic;
+}
+.block2 h6{
+    float: right;
+    font-size: 10px;
+    font-weight: bold;
+}
+.block2 .petit{
+    font-size: 12px;
+    font-weight: normal;
+}
+
+
+
+
+
+
+
+
+
+
+

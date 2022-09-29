@@ -1,0 +1,840 @@
+
+/*General*/
+
+.yellow{
+    color: yellow;
+}
+.white-divider{
+    width: 120px;
+    height:2px;
+    background: darkslategrey;
+    margin: 20px auto;
+}
+ul,ol{
+   color: yellow;
+}
+.black-divider{
+    width: 160px;
+    height:3px;
+    background: #333;
+    margin: 20px auto;
+}
+
+
+
+/*Accueil*/
+#main-image{
+   margin-top: -20px;
+}
+
+
+.item p{
+    position: absolute;
+    color: white;
+    top:10px;
+    left: 40px;
+    font-size: 18px;
+    font-weight: bold;
+    font-style: italic;
+}
+
+
+
+/* -----1------- NEW ---------  */
+
+.nouveau h5{
+    position: absolute;
+    top: 0;
+    right:10px;
+    color: white;
+    background: #007CFF;
+    width: 17%;
+    border-radius: 50px;
+    padding: 5px;
+}
+
+.card-body p{
+    font-size: 18px;
+    padding: 15px 10px;
+    font-weight: normal;
+}
+.date small{
+    float:right;
+    font-weight: bold;
+}
+.btn-group{
+    margin: -2px 10px 10px 10px;
+}
+.btn-group a{
+    background: #888 !important;
+    color: white;
+    transition:  all 0.3s ease-in-out 0s;
+}
+
+.btn-group a:hover{
+   background: #333 !important;
+   color: white;
+}
+
+
+
+/* -----2------- Promotion ---------  */
+
+#promotion{
+    background: url('../image/accueil/promotion.png');
+}
+
+/*Partie 1*/
+
+
+
+
+.top h2{
+    text-align: center;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: bold;
+    color: white;
+    padding-top: 10px;
+    opacity: 0;
+}
+.top{
+    padding-bottom: 20px;
+}
+.part1 h2{
+    font-family: sans-serif;
+    color: white;
+    font-weight: bold;
+    margin-top:50px;
+    padding-bottom:25px;
+}
+.part1 h4{
+    color: white;
+    padding-bottom:15px;
+}
+
+.no-color{
+    color: white;
+}
+
+.list li{
+   padding: 10px 0;  
+   font-size: 15px;
+   font-weight: 300;
+   margin-left: -23px;
+}
+.part1 p{
+    color: white;
+}
+.part1 .p1{
+    font-size:17px;
+    font-style: italic;
+    padding-bottom:120px;
+}
+.etoile{
+    font-size: 23px;
+}
+.tit{
+    text-align: center;
+    color: #333;
+}
+.prom{
+    margin-top: -100px;
+    padding-bottom: 20px;
+}
+/*Partie 2*/
+
+
+.paragraphe1{
+    padding-top:18px;
+}
+.zone2 img{
+    padding-top:15px;
+    width: 100%; 
+    margin-left:-15px;
+}
+.achat{
+    padding-top:40px;
+    padding-left:5px;
+    padding-right:5px;
+}
+.button2{
+    background: orangered;
+    color:white;
+    width: 100%;
+    padding:10px;
+    font-size: 17px;
+    font-weight: bold;
+    border-radius: 3px;
+    border: none;
+    transition: all 0.3s ease-in 0s;
+    margin-bottom:30px;
+    height:50px;
+    opacity: 0.9;
+}
+.button2:hover{
+    color: white;
+    background:#333;
+}
+
+.button3{
+    background: darkblue;
+    opacity: 0.9;
+    font-size: 17px;
+    font-weight: bold;
+    color:white;
+    width: 100%;
+    padding:10px;
+    border-radius: 3px;
+    border: none;
+    transition: all 0.3s ease-in 0s;
+    margin-bottom:30px;
+    height:50px;
+}
+.button3:hover{
+    background:aqua;
+    color: white;
+}
+.button4{
+    background: green;
+    font-size: 17px;
+    opacity: 0.9;
+    font-weight: bold;
+    color:white;
+    width: 100%;
+    padding:10px;
+    border-radius: 3px;
+    border: none;
+    transition: all 0.3s ease-in 0s;
+    margin-bottom:28px;
+    height:50px;
+}
+.button4:hover{
+    background: darkgreen;
+    color: white;
+}
+.part2{
+    margin-top: -65px;
+    margin-bottom: 100px;
+    background:white;
+    width: 113%;  
+    padding: 20px;
+    margin-left:-27px;
+}
+.detail{
+    padding-top: 50px;
+}
+.divider{
+    border-bottom: 1px solid #333;
+    width: 100%;
+}
+.paragraphe1{
+    font-size: 13px;
+    font-family: 'Anton', sans-serif;
+    letter-spacing:1px;
+    padding-bottom: 10px;
+}
+.titre1{
+    color: darkorange;
+}
+.paragraphe2{
+    font-family: 'Merriweather', serif;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.diviseur{
+    border-top: 1px solid #c7c6c6;
+    margin-top: -6px;
+    width: 103%;
+    margin-left: -5px;
+}
+
+.edition h4{
+    margin-top:-7px;
+}
+
+/* -----3------- Pré-commandation ---------  */
+
+.hit h2{
+    text-align: center;
+    color:#333;
+    font-weight: bold;
+    font-size: 30px;
+    margin-left: 20px;
+}
+#pre-commende img{
+    width:100%;
+}
+
+.button11{
+    border-radius: 2px;
+    height: 50px;
+    background: #1a1fb2;
+    color: white;
+    font-size: 10px;
+    font-weight: bold;
+    width:94%;
+    margin: 0 4px;
+    transition: all 0.3s ease-in-out 0s;
+    padding: 0 auto;
+}
+.button11:hover{
+    color: white;
+    background: #777;
+}
+
+.button12{
+    border-radius: 2px;
+    height: 50px;
+    background: #1a1fb2;
+    color: white;
+    font-size: 10px;
+    font-weight: bold;
+    width:94%;
+    margin: 0 4px;
+    transition: all 0.3s ease-in-out 0s;
+    padding: 0 auto;
+}
+.button12:hover{
+    color: white;
+    background: #777;
+}
+.button10:hover{
+    color: white;
+    background: #777;
+}
+.button10{
+    position: absolute;
+    top:80%;
+    left:50%;
+    border-radius: 2px;
+    height: 50px;
+    background: #1a1fb2;
+    color: white;
+    font-size: 10px;
+    font-weight: bold;
+    width:40%;
+    margin: 0 4px;
+    transition: all 0.3s ease-in-out 0s;
+    padding: 0 auto;
+}
+
+@media (min-width:1000px) and (max-width:1200px){
+    #pre-commende .pre-1 .button10{
+        position: absolute;
+        top:75%;
+    }
+}
+@media (min-width:768px) and (max-width:999px){
+    #pre-commende .pre-1 .button10{
+        position: absolute;
+        top:65%;
+    }
+}
+@media (max-width:500px){
+    #pre-commende .pre-1 .button10{
+        position: absolute;
+        top:70%;
+    }
+}
+
+
+
+
+
+/* -----4------- Option +  Abonement ---------  */
+
+
+/*Option*/
+
+
+#option{
+  background: #15171e;
+}
+.opt{
+    padding-bottom:10px;
+}
+#option .opt .fas{
+    padding-top: 30px;
+    font-size:38px;
+    margin-left: -10px;
+    transition: all 0.3s ease-in 0s;
+    color: white;
+}
+#option .opt .fas:hover{
+    color: darkgoldenrod;
+}
+.opt h3{
+    color: white;
+    font-style: italic;
+   font-weight: bold;
+   font-size: 20px;
+   margin-left:50px;
+   margin-top:-30px;
+}
+#option p{
+    margin-left:55px;
+    font-size: 14px;
+    color: white;
+}
+.sub-divis-top{
+    border-bottom: 1px solid #fff;
+    width:105%;
+    margin-left: -20px;
+    padding-bottom:0px;
+    padding-top:-120px;
+}
+
+
+
+/* -----4-------  Abonement ---------  */
+
+#infos{
+    background: #15171e;
+}
+#infos h2{
+    color: white;
+    padding-bottom:80px;
+    font-weight: bold;
+    font-size:27px;
+    text-transform: uppercase;
+    margin-left: -6px;
+}
+form{
+    padding-bottom: 50px;
+}
+#infos p{
+    color: white;
+    font-size:18px;
+    margin-left: -6px;
+}
+.separator{
+    padding-top:0px;
+    padding-bottom:60px;
+}
+#infos input{
+    margin:15px 0;
+    border-radius: 3px;
+    height: 60px ! important;
+    background: #15171e !important;
+    border: 2px solid #fff !important;
+}
+.button5{
+    margin-top: 30px;
+    border-radius:2px;
+    width: 140px;
+    height:50px;
+    border: none;
+    border-radius: 2px;
+    font-size: 15px;
+    color: #333;
+    padding: 8px;
+    background: yellow;
+    letter-spacing: 1px;
+    transition: all 0.3s ease-in 0s;
+}
+.button5:hover{
+    background:yellowgreen;
+    color: white;
+}
+.plus h2{
+    text-align: center;
+    font-weight:normal;
+}
+.info-divider{
+    width: 120px;
+    height:2px;
+    background: white;
+    margin: 20px auto;
+}
+.intervenant{
+    padding-top:30px;
+}
+
+
+
+
+/* --------- carousel --------*/
+
+#main-image .bande-annonce{
+    position: absolute;
+    top:5%;
+    left:5%;
+}
+#main-image .bande-annonce2{
+    position: absolute;
+    top:5%;
+    left:55%;
+}
+.b1 p , .eage p{
+    font-style: normal;
+    border: 3px solid white;
+    color: white;
+    padding: 6px;
+    margin-top: -10px;
+    border-radius:1%;
+   
+}
+.disponiblité{
+    margin-bottom:20px;
+}
+
+.eage h5{
+    color: white;
+    margin-left:15px;
+    font-weight: bold;
+    font-size:18px;
+    margin-bottom: 20px;
+    text-shadow:1px 1px 1px black;
+}
+
+.tomorrow h1{
+    font-size:70px;
+    font-weight: bold;
+    color: white;
+    text-shadow:1px 1px 1px black;
+    font-style: inherit;
+}
+.button40{
+    margin-top:40px;
+}
+
+
+.eage2 h5{
+    color: #333;
+    margin-left:15px;
+    font-weight: bold;
+    font-size:18px;
+    margin-bottom: 20px;
+    text-shadow:1px 1px 1px #fff;
+}
+
+.tomorrow2 h1{
+    font-size:60px;
+    font-weight: bold;
+    color: #333;
+    text-shadow:1px 1px 1px #fff;
+    font-style: inherit;
+}
+.tomorrow3 h1{
+    font-size:60px;
+    font-weight: bold;
+    color: white;
+    text-shadow:1px 1px 1px #333;
+    font-style: inherit;
+}
+
+.button43 a{
+    background: #007CFF;
+    border-radius: 2px;
+    height: 50px;
+    line-height: 25px;
+    color: white;
+    font-size: 10px;
+    font-weight: bold;
+    width:350px;
+    margin: 0 4px;
+    transition: all 0.4s ease-in-out 0s;
+    padding: 0 auto;
+    box-shadow: 1px 1px 1px 1px #333;
+}
+.button44 a{
+    background: #007CFF;
+    border-radius: 2px;
+    height: 50px;
+    line-height: 25px;
+    color: white;
+    font-size: 10px;
+    font-weight: bold;
+    width:350px;
+    margin: 20px 4px;
+    transition: all 0.4s ease-in-out 0s;
+    padding: 0 auto;
+    box-shadow: 1px 1px 1px 1px #333;
+}
+.button53 a{
+    background: #007CFF;
+    border-radius: 2px;
+    height: 50px;
+    line-height: 25px;
+    color: white;
+    font-size: 10px;
+    font-weight: bold;
+    width:350px;
+    margin: 20px 4px;
+    transition: all 0.4s ease-in-out 0s;
+    padding: 0 auto;
+    box-shadow: 1px 1px 1px 1px #333;
+}
+.button53 a:hover{
+    background: #333;color: white;
+}
+.button43 a:hover{
+    background: #333;color: white;
+}
+.button44 a:hover{
+    background: #333;color: white;
+}
+
+
+
+
+
+
+
+#main-image .carousel-inner .item img{
+    height:600px;
+    max-width: 1370px;
+}
+
+
+@media (min-width:1268px) and (max-width:1368px){
+    .jsk1{
+        max-width: 100%;
+    }
+    .jsk2 , .jsk3 , .jsk4 ,.jsk5 , .jsk6 , .jsk7, .jsk8 ,.jsk9 ,.jsk10{
+        height: 0;
+        width: 0;
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+    }
+}
+@media (min-width:1169px) and (max-width:1269px){
+    .jsk2{
+        max-width: 100%;
+    }
+     .jsk1 , .jsk3 , .jsk4 ,.jsk5 , .jsk6 , .jsk7, .jsk8 ,.jsk9 , .jsk10{
+        height: 0;
+        width: 0;
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+    }
+   
+}
+@media (min-width:1068px) and (max-width:1168px){
+    .jsk3{
+        max-width: 100%;
+    }
+     .jsk2 , .jsk1 , .jsk4 ,.jsk5 , .jsk6 , .jsk7, .jsk8 ,.jsk9 , .jsk10{
+        height: 0;
+        width: 0;
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+    }
+    .button41 a{
+        margin-top:60px;
+    }
+}
+@media (min-width:968px) and (max-width:1067px){
+    .jsk4{
+        max-width: 100%;
+    }
+     .jsk2 , .jsk1 , .jsk3 ,.jsk5 , .jsk6 , .jsk7, .jsk8 ,.jsk9 , .jsk10{
+        height: 0;
+        width: 0;
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+    }
+   
+}
+@media (min-width:867px) and (max-width:967px){
+    .jsk5{
+        max-width: 100%;
+    }
+     .jsk2 , .jsk3 , .jsk1 ,.jsk4 , .jsk6 , .jsk7, .jsk8 ,.jsk9 ,.jsk10{
+        height: 0;
+        width: 0;
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+    }
+    .eage2 h5{
+       margin-left: -20px;
+       font-size: 16px;
+    }
+   
+}
+@media (min-width:766px) and (max-width:866px){
+    .jsk6{
+        max-width: 100%;
+    }
+     .jsk2 , .jsk3 , .jsk4 ,.jsk1 , .jsk5 , .jsk7, .jsk8 ,.jsk9 , .jsk10{
+        height: 0;
+        width: 0;
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+    }
+     .tomorrow3 h1{
+        opacity: 0;
+    }
+    .eage2 h5{
+       margin-left: -60px;      
+    }
+    .btn43{
+        margin-left: -100px;
+        margin-top:-100px;
+    }
+}
+@media (min-width:665px) and (max-width:765px){
+    .jsk7{
+        max-width: 100%;
+    }
+     .jsk2 , .jsk3 , .jsk4 ,.jsk5 , .jsk1 , .jsk6, .jsk8 ,.jsk9 , .jsk10{
+        height: 0;
+        width: 0;
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+    }
+     .tomorrow3 h1{
+        opacity: 0;
+    }
+    .eage2 h5{
+    
+      font-size: 18px;
+    }
+    .btn43{
+        margin-left: -100px;
+        margin-top: -100px;
+    }
+}
+@media (min-width:564px) and (max-width:664px){
+    .jsk8{
+        max-width: 100%;
+    }
+     .jsk2 , .jsk3 , .jsk4 ,.jsk5 , .jsk6 , .jsk1, .jsk7 ,.jsk9 , .jsk10{
+        height: 0;
+        width: 0;
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+    }
+     .tomorrow2 h1 ,.tomorrow3 h1{
+        opacity: 0;
+    }
+    .eage2 h5{
+     opacity: 0;
+    }
+     .btn43{
+        position: absolute;
+        margin-left: -150px;
+        margin-top: -150px;
+    }
+   
+}
+
+@media (min-width:463px) and (max-width:563px){
+    .jsk9{
+        max-width: 100%;
+    }
+     .jsk2 , .jsk3 , .jsk4 ,.jsk5 , .jsk6 , .jsk7, .jsk1 ,.jsk8 , .jsk10{
+        height: 0;
+        width: 0;
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+    }
+     .tomorrow3 h1{
+        opacity: 0;
+    }
+   .button44{
+        margin-top:0px;
+    }
+     .tomorrow2 h1 ,.tomorrow3 h1{
+        opacity: 0;
+    }
+    .eage2 h5{
+     opacity: 0;
+    }
+     .btn43{
+        position: absolute;
+        margin-left: -200px;
+        margin-top: -150px;
+    }
+}
+@media (min-width:300px) and (max-width:563px){
+  
+     .tomorrow2 h1 ,.tomorrow3 h1{
+        opacity: 0;
+    }
+   .button44{
+        margin-top:-20px;
+    }
+     .eage2 h5{
+     opacity: 0;
+    }
+     .btn43{
+        position: absolute;
+        margin-left: -200px;
+        margin-top: -150px;
+    }
+}
+
+@media (max-width:462px){
+    .jsk10{
+        max-width: 100%;
+    }
+     .jsk1 , .jsk2 , .jsk3 , .jsk4 ,.jsk5 , .jsk6 , .jsk7, .jsk8 , .jsk9{
+        height: 0;
+        width: 0;
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+    }
+    .tomorrow2 h1 ,.tomorrow3 h1{
+        opacity: 0;
+    }
+    .button43{
+        margin-top: 25px;
+    }
+    .button44{
+        margin-top:-90px;
+    }
+    .button45{
+        margin-top: -20px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

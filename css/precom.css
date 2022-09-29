@@ -1,0 +1,469 @@
+/*gallery*/
+
+#gallery-image {
+    box-sizing: border-box;
+}
+
+.gallery-section {
+    width: 100%;
+    background: white;
+    margin-top: -300px;
+}
+
+.inner-width {
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    margin-top: 250px;
+    padding-bottom: 40px;
+}
+
+.gallery-section h1 {
+    max-width: 100%;
+    text-align: center;
+    text-transform: uppercase;
+    color: #333;
+    font-family: 'Lalezar', cursive;
+}
+
+.border {
+    max-width: 100%;
+    width: 200px;
+    height: 4px;
+    background: #333;
+    margin: 40px auto;
+}
+
+.gallery-section .gallery {
+    display: flex;
+    flex-wrap: wrap-reverse;
+    justify-content: center;
+}
+
+.gallery-section .image {
+    flex: 25%;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.gallery-section .image img {
+    width: 100%;
+    height: 100%;
+    transition: 0.4s;
+}
+
+.gallery-section .image:hover img {
+    transform: scale(1.4) rotate(15deg);
+}
+
+@media screen and (max-width:960px) {
+    .gallery-section .image {
+        flex: 33.33%;
+    }
+}
+
+@media screen and (max-width:768px) {
+    .gallery-section .image {
+        flex: 50%;
+    }
+}
+
+@media screen and (max-width:480px) {
+    .gallery-section .image {
+        flex: 100%;
+    }
+}
+
+
+/**/
+
+.bot-btns {
+    border-radius: 0px;
+    font-size: 12px;
+    text-transform: uppercase;
+    font-weight: bold;
+    width: 80%;
+    margin-left: 5%;
+    height: 55px;
+    margin-top: 20px;
+}
+
+.thelast {
+    margin-top: 150px
+}
+
+.ribbon-std {
+    max-width: 99%;
+    position: relative;
+    top: -12px;
+    width: 350px;
+    color: white;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+#bot {
+    text-align: center;
+    padding-top: 50px;
+    background-color: #f0f0f0;
+    min-height: 700px;
+}
+
+#mynav {
+    display: inline-block;
+    list-style-type: none;
+}
+
+#mynav a {
+    color: #164094;
+    border-bottom: 4px solid #164094;
+    border-radius: 20px;
+}
+
+#mynav .active {
+    background-color: #acaff8;
+    border-radius: 20px;
+}
+
+#mynav li {
+    display: inline-block;
+}
+
+.std .game-pic {
+    margin: 80px 0px 70px 70px;
+}
+
+.std {
+    text-align: left;
+    margin-top: 60px;
+    margin-left: 5%;
+    margin-right: 5%;
+    background-color: white;
+    border: 1px solid #E0E0E0;
+}
+
+#pre-bot {
+    margin-top: 100px;
+    text-align: center;
+    height: 100%;
+    background: linear-gradient(180deg, #fff 45%, #f0f0f0 50%);
+}
+
+#gallerie {
+    padding-top: -100px;
+    margin-left: 3%;
+    margin-top: -200px;
+    width: 90%;
+}
+
+figure {
+    margin-bottom: 30px;
+}
+
+html,
+body,
+#precommande {
+    max-width: 100%;
+}
+
+#mid-img {
+    width: 700px;
+    max-width: 99%;
+    margin-bottom: -90px;
+}
+
+#image-pre-top {
+    position: relative;
+    top: 70px;
+    left: 12%;
+    width: 478px;
+}
+
+#mid-text {
+    position: relative;
+    top: -600px;
+    padding-left: 40px;
+    padding-right: 40px;
+    font-size: 15px;
+    right: 10px;
+    color: #FEFEE2;
+    float: right;
+}
+
+#mid {
+    background-image: url('../image/precom//font-mid.png');
+    background-repeat: no-repeat;
+    background-size: 1400px;
+}
+
+#pre-btn {
+    max-width: 99%;
+    background: #1a1fb2;
+    border-radius: 2px;
+    height: 50px;
+    border: none;
+    line-height: 25px;
+    color: white;
+    font-size: 14px;
+    font-weight: bold;
+    width: 350px;
+    margin: 0 4px;
+    transition: all 0.3s ease-in-out 0s;
+    padding: 0 auto;
+    position: relative;
+    left: 12%;
+    top: 170px;
+}
+
+#pre-btn:hover {
+    color: blue;
+    background-color: white;
+}
+
+#pre-top {
+    min-height: 650px;
+    font-family: FuturaPT-Demi;
+    margin-top: 80px;
+    background-image: url('../image/precom/monimage2.png');
+    background-repeat: no-repeat;
+    background-size: 1400px;
+    color: white;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.ribbon {
+    background-color: #1a58aa;
+    border-bottom-right-radius: 300px;
+    border-top-right-radius: 10px;
+    width: 230.85px;
+    font-size: 11px;
+    padding: 10px 0px 10px 7px;
+    position: relative;
+    left: 12%;
+}
+
+.ps4 {
+    background-color: #464a4e;
+    padding: 7px 15px 7px 15px;
+    border-radius: 10%;
+    width: 60px;
+    position: relative;
+    left: 12%;
+    top: 30px;
+    text-align: center;
+}
+
+#redirection-links {
+    position: relative;
+    left: 12%;
+    top: 120px;
+    width: 405px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    text-decoration: none;
+    color: white;
+}
+
+a:active {
+    text-decoration: none;
+    color: white;
+}
+
+a:visited {
+    text-decoration: none;
+    color: white;
+}
+
+.mylink {
+    text-decoration: none;
+    color: white;
+    padding-right: 50px;
+}
+
+
+/* bot bot / services */
+
+.service {
+    padding-top: 20px;
+    text-align: left;
+    width: 250px;
+    height: 130px;
+    background-color: white;
+    margin-left: 20px;
+    margin-right: 20px;
+    font-size: 15px;
+    text-transform: uppercase;
+    border-radius: 10px;
+    margin-top: 30px;
+}
+
+.service:hover {
+    background-color: #f9f9f9;
+}
+
+.service p {
+    padding-top: 20px;
+    text-align: left;
+}
+
+#bot-bot {
+    text-align: left;
+    color: #164094;
+    font-weight: bold;
+    font-size: 40px;
+    margin-bottom: 30px;
+    padding-left: 5%;
+    padding-top: 30px;
+    background-color: fff;
+    /* #f0f0f0;*/
+    padding-bottom: 0px;
+}
+
+.bot-btns {
+    border-radius: 0px;
+    font-size: 12px;
+    text-transform: uppercase;
+    font-weight: bold;
+    width: 80%;
+    margin-left: 5%;
+    height: 55px;
+    margin-top: 20px;
+}
+
+@media(max-width:991px) {
+    .ribbon-std {
+        top: -175px;
+    }
+}
+
+@media(max-width:500px) {
+    #pre-bot img {
+        width: 90%;
+    }
+    .part2 {
+        border: 0px
+    }
+}
+
+@media(max-width:1000px) {
+    .myh1 {
+        text-align: center;
+    }
+}
+
+@media (max-width:700px) {
+    body,
+    #precommande {
+        margin: -10px -200px 0px 0px;
+        padding: 0px 0px 0px 0px;
+        width: 110%;
+        padding: 0px 0px 0px 0px;
+    }
+    .myh1 {
+        text-align: center;
+    }
+    #pre-btn {
+        width: 80%;
+        left: 10%;
+    }
+    #mid-img {
+        width: 99%;
+        position: relative;
+        top: 200px;
+    }
+    #image-pre-top {
+        width: 70%;
+    }
+    #mid-text {
+        position: relative;
+        width: 99%;
+        top: -350px;
+    }
+    #redirection-links {
+        width: 85%;
+    }
+    #mid,
+    #pre-top {
+        background-size: 1400px;
+    }
+    @media (min-width:500px)and(max-width:700px) {
+        #gallerie {
+            width: 100%;
+            width: 60%;
+        }
+    }
+}
+
+
+/*form rechercher */
+
+.sidenav {
+    color: #164094;
+    font-size: 21px;
+    height: 100%;
+    /* Full-height: remove this if you want "auto" height */
+    width: 330px;
+    /* Set the width of the sidebar */
+    position: fixed;
+    /* Fixed Sidebar (stay in place on scroll) */
+    z-index: 1;
+    /* Stay on top */
+    top: 0;
+    /* Stay at the top */
+    right: 0;
+    background-color: #f9f9f9;
+    /* Black */
+    overflow-x: hidden;
+    /* Disable horizontal scroll */
+    padding-top: 20px;
+    border-left: 1px solid #E0E0E0;
+    font-weight: bold;
+}
+
+
+/* The navigation menu links */
+
+
+/* Style page content */
+
+.main {
+    margin-left: 160px;
+    /* Same as the width of the sidebar */
+    padding: 0px 10px;
+}
+
+
+/* On smaller screens, where height is less than 450px, change the style of the sidebar (less padding and a smaller font size) */
+
+@media screen and (max-height: 450px) {
+    .sidenav {
+        padding-top: 15px;
+    }
+    .sidenav a {
+        font-size: 18px;
+    }
+}
+
+.identite {
+    padding-top: 20px;
+    width: 300px;
+    margin-left: 40px;
+}
+
+#rech-btn {
+    width: 200px;
+}
+
+.sidenav .form-control {
+    height: 50px;
+    width: 250px;
+    border: 1px solid #999;
+    font-size: 13px;
+}

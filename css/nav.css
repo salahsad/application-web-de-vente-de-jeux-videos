@@ -1,0 +1,157 @@
+.aqua{
+    background: #007CFF;
+    padding:2px 12px 5px 12px;
+    color: white;
+    border-radius: 15px;
+    font-size: 19px;
+}
+.btn-connect{
+    color: #777 !important;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out 0s;
+}
+.btn-connect:hover{
+    color: #007CFF !important;   
+}
+.navbar-nav li .btn-inscription{        
+    color:white !important;
+    background: #007CFF;
+    padding:10px 15px 12px 15px;
+    margin-top:10%;
+    line-height: 10px;
+    border-radius:16px;
+    font-weight: bold;
+    font-size: 14px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out 0s;
+}
+.btn-inscription:hover{   
+    color: white !important;
+    background: #777 !important;
+}
+.dropdown-menu .divider{
+    opacity: 0.2;
+}
+.dropdown-menu li a{
+    color: #777 !important;
+    transition:  all 0.3s ease-in-out 0s;
+}
+.dropdown-menu li a:hover{
+    color: #007CFF !important;
+}
+.collapse .nav .link-jsk{ 
+    color: #777 !important;
+    transition:  all 0.3s ease-in-out 0s;
+    font-size: 15px;
+}
+.collapse .nav .link-jsk:hover{ 
+    color: #007CFF !important;
+}
+.blues{
+    color: #007CFF;
+}
+#navig .navbar-brand{
+    font-family: 'Chelsea Market', cursive;
+    font-weight: bold;
+ 
+}
+.navbar-header a{
+   margin-left:20px !important;
+}
+#bs-example-navbar-collapse-1 ul{
+      margin-left:40px !important;
+}
+
+#navig .aqua{
+    background: #007CFF;
+    padding:2px 12px 5px 12px;
+    color: white;
+    border-radius: 15px;
+    font-size: 19px;
+}
+.point{
+    font-weight: bold;
+    color: #007CFF;
+}
+.navbar{
+    padding:2px;
+}
+
+
+@media (max-width:992px){
+    .navbar-nav li .btn-inscription{     
+      color: #777 !important;
+      background: white;   
+      font-weight: normal;
+      margin-top:2px !important;
+      margin-bottom:20px !important;  
+    }
+    .navbar-nav li .btn-inscription:hover{
+        background: white !important;
+        color: #007CFF !important;
+    }
+    .btn-connect{
+      margin-top:-8px !important;  
+    }
+}
+
+
+@media (max-width:992px) {
+    .navbar-header {
+        float: none;
+    }
+    .navbar-left,.navbar-right {
+        float: none !important;
+    }
+    .navbar-toggle {
+        display: block;
+    }
+    .navbar-collapse {
+        border-top: 1px solid transparent;
+        box-shadow: inset 0 1px 0 rgba(255,255,255,0.1);
+    }
+    .navbar-fixed-top {
+		top: 0;
+		border-width: 0 0 1px;
+	}
+    .navbar-collapse.collapse {
+        display: none!important;
+    }
+    .navbar-nav {
+        float: none!important;
+		margin-top: 7.5px;
+	}
+	.navbar-nav>li {
+        float: none;
+    }
+    .navbar-nav>li>a {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    .collapse.in{
+  		display:block !important;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,145 @@
+.aqua{
+    background: #007CFF;
+    padding:2px 12px 5px 12px;
+    color: white;
+    border-radius: 15px;
+    font-size: 19px;
+}
+body{
+     background: #15171e;
+}
+.super h2
+{
+    text-align: center;
+    font-weight: bold;
+    color: white;
+    padding-bottom:60px;
+}
+.white{
+    color: white;
+}
+
+.jeux{
+    background: white;
+    color: #15171e;
+    padding: 10px;
+    border-radius:50%;
+}
+.titre{
+    text-align: center;
+    font-family: 'Pacifico', cursive;
+    padding-top:100px;
+    color: white;
+}
+.white-divider{
+    width: 300px;
+    height:3px;
+    background: white;
+    margin: 20px auto;
+
+}
+#contact-form input{
+    margin:15px 0;
+    border-radius: 3px;
+    height: 60px ! important;
+    background: #15171e !important;
+    border: 2px solid #fff !important;
+}
+#contact-form textarea{
+    margin:15px 0;
+    border-radius: 3px;
+    background: #15171e !important;
+    border: 2px solid #fff !important;
+}
+label{
+    color: white;
+    font-size:16px;
+    text-transform: uppercase;
+}
+#msg-btn{
+    margin-top: 30px;
+    margin-bottom: 40px;
+    width: 100%;
+    height:60px;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    color: white;
+    padding: 8px;  
+    font-weight: bold;
+    background:#777;
+    letter-spacing: 1px;
+    transition: all 0.3s ease-in 0s;
+}
+#msg-btn:hover{
+    background:yellowgreen;
+    color: white;
+}
+.row{
+    padding: 50px 0;
+}
+
+.contact-infos a,
+.aide a {
+    color: #cccccc;
+    text-decoration: none;
+    transition: all 0.3s ease-in-out 0s;
+}
+
+.contact-infos a:hover,
+.aide a:hover {
+    color: yellow;
+}
+
+.contact-infos i {
+    font-size: 22px;
+    width: 12%;
+}
+
+.contact-infos {
+    margin-top: 30px;
+}
+#title{
+    padding-top: 20px;
+    color: white;
+}
+.fas{
+    color: white;
+    transition: all 0.3s ease-in-out 0s;
+}
+.fas:hover{
+     color: yellow;
+}
+
+.divvv{
+  margin-bottom: 30px;
+  
+}
+.last-element{
+    margin-left: 20px;
+}
+.ele{
+    margin-left:40px;
+    padding-top:50px;
+}
+.ele h1{
+    color: white;
+}
+.ele h3{
+    color: white;
+}
+.ele small a:hover{
+    color: yellow;
+    cursor: pointer;
+}
+.ele small a{
+    text-decoration: none;
+    transition: all 0.3s ease-in-out 0s;
+    color: white;
+}
+.ele p{
+    color: white;
+}
+
+
+
